@@ -15,10 +15,10 @@ int main() {
 	//Mat image2 = imread("../face/b.png", IMREAD_COLOR);
 	//Mat image1 = imread("../face/c.png", IMREAD_COLOR);
 	//Mat image2 = imread("../face/d.png", IMREAD_COLOR);
-	//Mat image1 = imread("../face/e.jpg", IMREAD_COLOR);
-	//Mat image2 = imread("../face/f.jpg", IMREAD_COLOR);
-	Mat image1 = imread("../face/g.jpg", IMREAD_COLOR);
-	Mat image2 = imread("../face/h.jpg", IMREAD_COLOR);
+	Mat image1 = imread("../face/e.jpg", IMREAD_COLOR);
+	Mat image2 = imread("../face/f.jpg", IMREAD_COLOR);
+	//Mat image1 = imread("../face/g.jpg", IMREAD_COLOR);
+	//Mat image2 = imread("../face/h.jpg", IMREAD_COLOR);
 	CV_Assert(image1.data);
 	CV_Assert(image2.data);
 	Mat gray1 = preprocessing(image1);			// ÀüÃ³¸®
